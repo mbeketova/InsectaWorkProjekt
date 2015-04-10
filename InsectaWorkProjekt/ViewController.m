@@ -147,14 +147,14 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.arrayM.count;
-    return self.arrayMK.count;
+
 }
 
 //здесь заполняем таблицу отряд-латиниское название:
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString * simpleTaibleIndefir = @"Cell";
-    static NSString * simpleTaibleIndefir2 = @"Cell2";
+
     
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:simpleTaibleIndefir];
     if (cell == nil) {
@@ -165,29 +165,19 @@
     
     cell.textLabel.text = [[self.arrayM objectAtIndex:indexPath.row]objectForKey:@"value"];
     cell.detailTextLabel.text = [[self.arrayM objectAtIndex:indexPath.row]objectForKey:@"latvalue"];
-    
-    UITableViewCell * cell2 = [tableView dequeueReusableCellWithIdentifier:simpleTaibleIndefir2];
-    if (cell2 == nil) {
-        
-        cell2 = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTaibleIndefir2];
-        
-    }
-    
-   
-    cell2.textLabel.text = [[self.arrayMK objectAtIndex:indexPath.row]objectForKey:@"value"];
-    cell2.detailTextLabel.text = [[self.arrayMK objectAtIndex:indexPath.row]objectForKey:@"latvalue"];
+
     
     
     
     return cell;
-    return cell2;
+
 }
 
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-//    заполняем наследуемый вьюконтроллер DatailViewController (наименование, цена и описание)
+//    заполняем наследуемый вьюконтроллер DatailViewController (наименование, и описание)
     
     DatailViewController * detal = [self.storyboard instantiateViewControllerWithIdentifier:@"Detail"];
     [self.navigationController pushViewController:detal animated:YES];
@@ -205,6 +195,46 @@
 }
 
 
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+
+    return self.arrayMK.count;
+}
+
+//здесь заполняем таблицу отряд-латиниское название:
+- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+
+    static NSString * simpleTaibleIndefir2 = @"Cell2";
+
+    
+    UITableViewCell * cell2 = [tableView dequeueReusableCellWithIdentifier:simpleTaibleIndefir2];
+    if (cell2 == nil) {
+        
+        cell2 = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTaibleIndefir2];
+        
+    }
+    
+    
+    cell2.textLabel.text = [[self.arrayMK objectAtIndex:indexPath.row]objectForKey:@"value"];
+    cell2.detailTextLabel.text = [[self.arrayMK objectAtIndex:indexPath.row]objectForKey:@"latvalue"];
+    
+    
+    
+    return cell2;
+}
+
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+//
+    
+    
+    
+    //    NSLog(@"indexPath %li", (long)indexPath.row);
+    
+}
 
 
 
