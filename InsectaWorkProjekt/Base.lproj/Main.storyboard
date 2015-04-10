@@ -230,10 +230,10 @@
             </objects>
             <point key="canvasLocation" x="340" y="224"/>
         </scene>
-        <!--View Controller-->
+        <!--Hexapoda View Controller-->
         <scene sceneID="FhD-rB-rPY">
             <objects>
-                <viewController id="bQZ-2f-OlY" sceneMemberID="viewController">
+                <viewController id="bQZ-2f-OlY" customClass="HexapodaViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CSg-ZY-Hjn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

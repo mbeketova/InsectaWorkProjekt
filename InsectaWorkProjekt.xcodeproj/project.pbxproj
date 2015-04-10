@@ -27,6 +27,7 @@
 		84354C531AD7DB9500812782 /* ногохвостки.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C521AD7DB9500812782 /* ногохвостки.jpg */; };
 		84354C551AD7DB9C00812782 /* щетинохвостки.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C541AD7DB9C00812782 /* щетинохвостки.jpg */; };
 		84354C581AD7EC4B00812782 /* DatailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84354C571AD7EC4B00812782 /* DatailViewController.m */; };
+		84354C5B1AD813B300812782 /* HexapodaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84354C5A1AD813B200812782 /* HexapodaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		84354C541AD7DB9C00812782 /* щетинохвостки.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "щетинохвостки.jpg"; sourceTree = "<group>"; };
 		84354C561AD7EC4B00812782 /* DatailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatailViewController.h; path = InsectaWorkProjekt/DatailViewController.h; sourceTree = "<group>"; };
 		84354C571AD7EC4B00812782 /* DatailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatailViewController.m; path = InsectaWorkProjekt/DatailViewController.m; sourceTree = "<group>"; };
+		84354C591AD813B200812782 /* HexapodaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HexapodaViewController.h; path = InsectaWorkProjekt/HexapodaViewController.h; sourceTree = "<group>"; };
+		84354C5A1AD813B200812782 /* HexapodaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HexapodaViewController.m; path = InsectaWorkProjekt/HexapodaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,7 @@
 		84354C041AD7322100812782 = {
 			isa = PBXGroup;
 			children = (
+				84354C5C1AD813C100812782 /* Hexapoda */,
 				84354C421AD7329E00812782 /* Framework */,
 				84354C391AD7323400812782 /* DetailInsectaWorkProject */,
 				84354C0F1AD7322100812782 /* InsectaWorkProjekt */,
@@ -178,6 +182,15 @@
 				84354C3A1AD7326E00812782 /* UIKit.framework */,
 			);
 			name = Framework;
+			sourceTree = "<group>";
+		};
+		84354C5C1AD813C100812782 /* Hexapoda */ = {
+			isa = PBXGroup;
+			children = (
+				84354C591AD813B200812782 /* HexapodaViewController.h */,
+				84354C5A1AD813B200812782 /* HexapodaViewController.m */,
+			);
+			name = Hexapoda;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +302,7 @@
 			files = (
 				84354C161AD7322100812782 /* AppDelegate.m in Sources */,
 				84354C191AD7322100812782 /* InsectaWorkProjekt.xcdatamodeld in Sources */,
+				84354C5B1AD813B300812782 /* HexapodaViewController.m in Sources */,
 				84354C1C1AD7322100812782 /* ViewController.m in Sources */,
 				84354C131AD7322100812782 /* main.m in Sources */,
 				84354C581AD7EC4B00812782 /* DatailViewController.m in Sources */,

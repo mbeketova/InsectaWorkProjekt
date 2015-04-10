@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DatailViewController.h"
+#import "HexapodaViewController.h"
 
 @interface ViewController ()
 
@@ -17,10 +18,7 @@
 @property (nonatomic, strong) NSArray * arrayValueLat;
 @property (nonatomic, strong) NSMutableArray * arrayDescript;
 
-@property (nonatomic, strong) NSMutableArray * arrayMK; //массив по крылатым
-@property (nonatomic, strong) NSArray * arrayValueK;
-@property (nonatomic, strong) NSArray * arrayValueLatK;
-//@property (nonatomic, strong) NSMutableArray * arrayDescriptK; добавить после внесения опиания по крылатым
+
 
 @end
 
@@ -88,53 +86,7 @@
     NSLog(@"%@",self.arrayM); //выводим на печать полученный массив с названиями (рус. и лат.)
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    
-//создаем массив по крылоносным:
-//-------------------------------------------------------------------------------------------------------------------------------------------
 
-    NSString * stringValueK = @"Двукрылые, Чешуекрылые, Бахромчатокрылые, Равнокрылые, Полужесткокрылые, Уховертки, Жесткокрылые, Стрекозы, Прямокрылые, Богомолы, Тараканы, Перепончатокрылые, Сетчатокрылые";
-    NSString * stringValueLatK = @"Diptera, Lepidoptera, Thysanoptera, Homoptera, Hemiptera, Dermaptera, Coleoptera, Odonatoptera, Orthoptera, Mantoptera, Blattoptera, Hymenoptera, Neuroptera";
-    
-    //заносим в массив значения из строки без символов запятая и пробел:
-    
-    self.arrayValueK = [stringValueK componentsSeparatedByString:@", "];
-    self.arrayValueLatK = [stringValueLatK componentsSeparatedByString:@", "];
-    
-    self.arrayMK = [[NSMutableArray alloc]init];
-    
-    //данный цикл записывает в коллекцию значения из массива arrayValue и соответствующие ему значения из массива arrayValueLat, пока не закончатся элементы в массиве arrayPrice:
-    
-    for (int i = 0; i < self.arrayValueK.count; i++) {
-        
-        NSMutableDictionary * dict = [[NSMutableDictionary alloc]init];
-        [dict setObject:[self.arrayValueK objectAtIndex:i] forKey:@"value"];
-        [dict setObject:[self.arrayValueLatK objectAtIndex:i] forKey:@"latvalue"];
- //       [dict setObject:[self.arrayDescript objectAtIndex:i] forKey:@"discr"]; - добавить, когда внесу описания
-        
-        
-        
-        
-        
-        
-        [self.arrayM addObject:dict];
-        
-        
-    }
-    
-    
-    
-    
-    //здесь сортируем массив по названию:
-    NSSortDescriptor * sorterK = [[NSSortDescriptor alloc] initWithKey:@"value" ascending:YES];
-    NSArray * descriptorsK = [NSArray arrayWithObjects:sorterK, nil];
-    [self.arrayMK sortUsingDescriptors:descriptorsK];
-    
-    
-    
-    
-    
-    NSLog(@"%@",self.arrayMK); //выводим на печать полученный массив с названиями (рус. и лат.)
- //-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 }
 
@@ -193,52 +145,6 @@
 //    NSLog(@"indexPath %li", (long)indexPath.row);
     
 }
-
-
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
-    return self.arrayMK.count;
-}
-
-//здесь заполняем таблицу отряд-латиниское название:
-- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-
-    static NSString * simpleTaibleIndefir2 = @"Cell2";
-
-    
-    UITableViewCell * cell2 = [tableView dequeueReusableCellWithIdentifier:simpleTaibleIndefir2];
-    if (cell2 == nil) {
-        
-        cell2 = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTaibleIndefir2];
-        
-    }
-    
-    
-    cell2.textLabel.text = [[self.arrayMK objectAtIndex:indexPath.row]objectForKey:@"value"];
-    cell2.detailTextLabel.text = [[self.arrayMK objectAtIndex:indexPath.row]objectForKey:@"latvalue"];
-    
-    
-    
-    return cell2;
-}
-
-
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-//
-    
-    
-    
-    //    NSLog(@"indexPath %li", (long)indexPath.row);
-    
-}
-
-
-
-
 
 
 
