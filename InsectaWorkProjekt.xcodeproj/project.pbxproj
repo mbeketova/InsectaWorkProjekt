@@ -22,12 +22,27 @@
 		84354C471AD736BF00812782 /* fauna_cikada.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84354C461AD736BF00812782 /* fauna_cikada.gif */; };
 		84354C491AD7428C00812782 /* строение1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C481AD7428C00812782 /* строение1.jpg */; };
 		84354C4B1AD7432200812782 /* строение6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C4A1AD7432200812782 /* строение6.jpg */; };
-		84354C4F1AD7D4FF00812782 /* бессяжковые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C4E1AD7D4FF00812782 /* бессяжковые.jpg */; };
-		84354C511AD7DB8C00812782 /* двухвостые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C501AD7DB8C00812782 /* двухвостые.jpg */; };
-		84354C531AD7DB9500812782 /* ногохвостки.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C521AD7DB9500812782 /* ногохвостки.jpg */; };
-		84354C551AD7DB9C00812782 /* щетинохвостки.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C541AD7DB9C00812782 /* щетинохвостки.jpg */; };
 		84354C581AD7EC4B00812782 /* DatailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84354C571AD7EC4B00812782 /* DatailViewController.m */; };
-		84354C5B1AD813B300812782 /* HexapodaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84354C5A1AD813B200812782 /* HexapodaViewController.m */; };
+		84354C5F1AD880B100812782 /* ArrayInsecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 84354C5E1AD880B100812782 /* ArrayInsecta.m */; };
+		84354C661AD89E1E00812782 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84354C651AD89E1E00812782 /* CustomTableViewCell.m */; };
+		84354C691AD8A89A00812782 /* бессяжковые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C681AD8A89A00812782 /* бессяжковые.jpg */; };
+		84354C6B1AD8A8A800812782 /* двухвостые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C6A1AD8A8A800812782 /* двухвостые.jpg */; };
+		84354C6D1AD8A8B400812782 /* ногохвостки.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C6C1AD8A8B400812782 /* ногохвостки.jpg */; };
+		84354C6F1AD8A8BC00812782 /* щетинохвостки.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C6E1AD8A8BC00812782 /* щетинохвостки.jpg */; };
+		84354C721AD8B63B00812782 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84354C711AD8B63B00812782 /* MenuViewController.m */; };
+		84354C7F1AD8DB7C00812782 /* бахромчатокрылые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C731AD8DB7C00812782 /* бахромчатокрылые.jpg */; };
+		84354C801AD8DB7C00812782 /* богомолы.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C741AD8DB7C00812782 /* богомолы.jpg */; };
+		84354C811AD8DB7C00812782 /* двукрылые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C751AD8DB7C00812782 /* двукрылые.jpg */; };
+		84354C821AD8DB7C00812782 /* жесткокрылые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C761AD8DB7C00812782 /* жесткокрылые.jpg */; };
+		84354C831AD8DB7C00812782 /* перепончатокрылые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C771AD8DB7C00812782 /* перепончатокрылые.jpg */; };
+		84354C841AD8DB7C00812782 /* полужесткокрылые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C781AD8DB7C00812782 /* полужесткокрылые.jpg */; };
+		84354C851AD8DB7C00812782 /* прямокрылые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C791AD8DB7C00812782 /* прямокрылые.jpg */; };
+		84354C861AD8DB7C00812782 /* равнокрылые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C7A1AD8DB7C00812782 /* равнокрылые.jpg */; };
+		84354C871AD8DB7C00812782 /* сетчатокрылые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C7B1AD8DB7C00812782 /* сетчатокрылые.jpg */; };
+		84354C881AD8DB7C00812782 /* стрекозы.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C7C1AD8DB7C00812782 /* стрекозы.jpg */; };
+		84354C891AD8DB7C00812782 /* тараканы.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C7D1AD8DB7C00812782 /* тараканы.jpg */; };
+		84354C8A1AD8DB7C00812782 /* уховертки.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C7E1AD8DB7C00812782 /* уховертки.jpg */; };
+		84354C8C1AD8DB9300812782 /* чешуекрылые.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354C8B1AD8DB9300812782 /* чешуекрылые.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,14 +77,31 @@
 		84354C461AD736BF00812782 /* fauna_cikada.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fauna_cikada.gif; sourceTree = "<group>"; };
 		84354C481AD7428C00812782 /* строение1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "строение1.jpg"; sourceTree = "<group>"; };
 		84354C4A1AD7432200812782 /* строение6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "строение6.jpg"; sourceTree = "<group>"; };
-		84354C4E1AD7D4FF00812782 /* бессяжковые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "бессяжковые.jpg"; sourceTree = "<group>"; };
-		84354C501AD7DB8C00812782 /* двухвостые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "двухвостые.jpg"; sourceTree = "<group>"; };
-		84354C521AD7DB9500812782 /* ногохвостки.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ногохвостки.jpg"; sourceTree = "<group>"; };
-		84354C541AD7DB9C00812782 /* щетинохвостки.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "щетинохвостки.jpg"; sourceTree = "<group>"; };
 		84354C561AD7EC4B00812782 /* DatailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatailViewController.h; path = InsectaWorkProjekt/DatailViewController.h; sourceTree = "<group>"; };
 		84354C571AD7EC4B00812782 /* DatailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatailViewController.m; path = InsectaWorkProjekt/DatailViewController.m; sourceTree = "<group>"; };
-		84354C591AD813B200812782 /* HexapodaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HexapodaViewController.h; path = InsectaWorkProjekt/HexapodaViewController.h; sourceTree = "<group>"; };
-		84354C5A1AD813B200812782 /* HexapodaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HexapodaViewController.m; path = InsectaWorkProjekt/HexapodaViewController.m; sourceTree = "<group>"; };
+		84354C5D1AD880B100812782 /* ArrayInsecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayInsecta.h; path = InsectaWorkProjekt/ArrayInsecta.h; sourceTree = "<group>"; };
+		84354C5E1AD880B100812782 /* ArrayInsecta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArrayInsecta.m; path = InsectaWorkProjekt/ArrayInsecta.m; sourceTree = "<group>"; };
+		84354C641AD89E1E00812782 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = InsectaWorkProjekt/CustomTableViewCell.h; sourceTree = "<group>"; };
+		84354C651AD89E1E00812782 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewCell.m; path = InsectaWorkProjekt/CustomTableViewCell.m; sourceTree = "<group>"; };
+		84354C681AD8A89A00812782 /* бессяжковые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "бессяжковые.jpg"; sourceTree = "<group>"; };
+		84354C6A1AD8A8A800812782 /* двухвостые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "двухвостые.jpg"; sourceTree = "<group>"; };
+		84354C6C1AD8A8B400812782 /* ногохвостки.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ногохвостки.jpg"; sourceTree = "<group>"; };
+		84354C6E1AD8A8BC00812782 /* щетинохвостки.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "щетинохвостки.jpg"; sourceTree = "<group>"; };
+		84354C701AD8B63B00812782 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = InsectaWorkProjekt/MenuViewController.h; sourceTree = "<group>"; };
+		84354C711AD8B63B00812782 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = InsectaWorkProjekt/MenuViewController.m; sourceTree = "<group>"; };
+		84354C731AD8DB7C00812782 /* бахромчатокрылые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "бахромчатокрылые.jpg"; sourceTree = "<group>"; };
+		84354C741AD8DB7C00812782 /* богомолы.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "богомолы.jpg"; sourceTree = "<group>"; };
+		84354C751AD8DB7C00812782 /* двукрылые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "двукрылые.jpg"; sourceTree = "<group>"; };
+		84354C761AD8DB7C00812782 /* жесткокрылые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "жесткокрылые.jpg"; sourceTree = "<group>"; };
+		84354C771AD8DB7C00812782 /* перепончатокрылые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "перепончатокрылые.jpg"; sourceTree = "<group>"; };
+		84354C781AD8DB7C00812782 /* полужесткокрылые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "полужесткокрылые.jpg"; sourceTree = "<group>"; };
+		84354C791AD8DB7C00812782 /* прямокрылые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "прямокрылые.jpg"; sourceTree = "<group>"; };
+		84354C7A1AD8DB7C00812782 /* равнокрылые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "равнокрылые.jpg"; sourceTree = "<group>"; };
+		84354C7B1AD8DB7C00812782 /* сетчатокрылые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "сетчатокрылые.jpg"; sourceTree = "<group>"; };
+		84354C7C1AD8DB7C00812782 /* стрекозы.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "стрекозы.jpg"; sourceTree = "<group>"; };
+		84354C7D1AD8DB7C00812782 /* тараканы.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "тараканы.jpg"; sourceTree = "<group>"; };
+		84354C7E1AD8DB7C00812782 /* уховертки.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "уховертки.jpg"; sourceTree = "<group>"; };
+		84354C8B1AD8DB9300812782 /* чешуекрылые.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "чешуекрылые.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +129,10 @@
 		84354C041AD7322100812782 = {
 			isa = PBXGroup;
 			children = (
-				84354C5C1AD813C100812782 /* Hexapoda */,
+				84354C8E1AD8E20C00812782 /* MenuViewController */,
+				84354C8D1AD8E1E700812782 /* ArrayInsecta */,
+				84354C671AD8A24800812782 /* Image */,
+				84354C601AD89B2D00812782 /* CustomCell */,
 				84354C421AD7329E00812782 /* Framework */,
 				84354C391AD7323400812782 /* DetailInsectaWorkProject */,
 				84354C0F1AD7322100812782 /* InsectaWorkProjekt */,
@@ -162,13 +197,6 @@
 			children = (
 				84354C561AD7EC4B00812782 /* DatailViewController.h */,
 				84354C571AD7EC4B00812782 /* DatailViewController.m */,
-				84354C4A1AD7432200812782 /* строение6.jpg */,
-				84354C481AD7428C00812782 /* строение1.jpg */,
-				84354C461AD736BF00812782 /* fauna_cikada.gif */,
-				84354C4E1AD7D4FF00812782 /* бессяжковые.jpg */,
-				84354C501AD7DB8C00812782 /* двухвостые.jpg */,
-				84354C521AD7DB9500812782 /* ногохвостки.jpg */,
-				84354C541AD7DB9C00812782 /* щетинохвостки.jpg */,
 			);
 			name = DetailInsectaWorkProject;
 			sourceTree = "<group>";
@@ -184,13 +212,58 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
-		84354C5C1AD813C100812782 /* Hexapoda */ = {
+		84354C601AD89B2D00812782 /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
-				84354C591AD813B200812782 /* HexapodaViewController.h */,
-				84354C5A1AD813B200812782 /* HexapodaViewController.m */,
+				84354C641AD89E1E00812782 /* CustomTableViewCell.h */,
+				84354C651AD89E1E00812782 /* CustomTableViewCell.m */,
 			);
-			name = Hexapoda;
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		84354C671AD8A24800812782 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				84354C681AD8A89A00812782 /* бессяжковые.jpg */,
+				84354C6A1AD8A8A800812782 /* двухвостые.jpg */,
+				84354C6C1AD8A8B400812782 /* ногохвостки.jpg */,
+				84354C8B1AD8DB9300812782 /* чешуекрылые.jpg */,
+				84354C4A1AD7432200812782 /* строение6.jpg */,
+				84354C731AD8DB7C00812782 /* бахромчатокрылые.jpg */,
+				84354C741AD8DB7C00812782 /* богомолы.jpg */,
+				84354C751AD8DB7C00812782 /* двукрылые.jpg */,
+				84354C761AD8DB7C00812782 /* жесткокрылые.jpg */,
+				84354C771AD8DB7C00812782 /* перепончатокрылые.jpg */,
+				84354C781AD8DB7C00812782 /* полужесткокрылые.jpg */,
+				84354C791AD8DB7C00812782 /* прямокрылые.jpg */,
+				84354C7A1AD8DB7C00812782 /* равнокрылые.jpg */,
+				84354C7B1AD8DB7C00812782 /* сетчатокрылые.jpg */,
+				84354C7C1AD8DB7C00812782 /* стрекозы.jpg */,
+				84354C7D1AD8DB7C00812782 /* тараканы.jpg */,
+				84354C7E1AD8DB7C00812782 /* уховертки.jpg */,
+				84354C481AD7428C00812782 /* строение1.jpg */,
+				84354C461AD736BF00812782 /* fauna_cikada.gif */,
+				84354C6E1AD8A8BC00812782 /* щетинохвостки.jpg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		84354C8D1AD8E1E700812782 /* ArrayInsecta */ = {
+			isa = PBXGroup;
+			children = (
+				84354C5D1AD880B100812782 /* ArrayInsecta.h */,
+				84354C5E1AD880B100812782 /* ArrayInsecta.m */,
+			);
+			name = ArrayInsecta;
+			sourceTree = "<group>";
+		};
+		84354C8E1AD8E20C00812782 /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84354C701AD8B63B00812782 /* MenuViewController.h */,
+				84354C711AD8B63B00812782 /* MenuViewController.m */,
+			);
+			name = MenuViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,16 +346,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84354C551AD7DB9C00812782 /* щетинохвостки.jpg in Resources */,
-				84354C511AD7DB8C00812782 /* двухвостые.jpg in Resources */,
+				84354C6F1AD8A8BC00812782 /* щетинохвостки.jpg in Resources */,
+				84354C811AD8DB7C00812782 /* двукрылые.jpg in Resources */,
+				84354C6B1AD8A8A800812782 /* двухвостые.jpg in Resources */,
+				84354C851AD8DB7C00812782 /* прямокрылые.jpg in Resources */,
 				84354C1F1AD7322100812782 /* Main.storyboard in Resources */,
+				84354C881AD8DB7C00812782 /* стрекозы.jpg in Resources */,
+				84354C871AD8DB7C00812782 /* сетчатокрылые.jpg in Resources */,
+				84354C841AD8DB7C00812782 /* полужесткокрылые.jpg in Resources */,
 				84354C491AD7428C00812782 /* строение1.jpg in Resources */,
 				84354C241AD7322100812782 /* LaunchScreen.xib in Resources */,
 				84354C211AD7322100812782 /* Images.xcassets in Resources */,
-				84354C4F1AD7D4FF00812782 /* бессяжковые.jpg in Resources */,
+				84354C691AD8A89A00812782 /* бессяжковые.jpg in Resources */,
+				84354C801AD8DB7C00812782 /* богомолы.jpg in Resources */,
+				84354C821AD8DB7C00812782 /* жесткокрылые.jpg in Resources */,
 				84354C4B1AD7432200812782 /* строение6.jpg in Resources */,
-				84354C531AD7DB9500812782 /* ногохвостки.jpg in Resources */,
+				84354C861AD8DB7C00812782 /* равнокрылые.jpg in Resources */,
+				84354C891AD8DB7C00812782 /* тараканы.jpg in Resources */,
+				84354C831AD8DB7C00812782 /* перепончатокрылые.jpg in Resources */,
+				84354C7F1AD8DB7C00812782 /* бахромчатокрылые.jpg in Resources */,
+				84354C8C1AD8DB9300812782 /* чешуекрылые.jpg in Resources */,
+				84354C6D1AD8A8B400812782 /* ногохвостки.jpg in Resources */,
 				84354C471AD736BF00812782 /* fauna_cikada.gif in Resources */,
+				84354C8A1AD8DB7C00812782 /* уховертки.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +387,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				84354C161AD7322100812782 /* AppDelegate.m in Sources */,
+				84354C661AD89E1E00812782 /* CustomTableViewCell.m in Sources */,
 				84354C191AD7322100812782 /* InsectaWorkProjekt.xcdatamodeld in Sources */,
-				84354C5B1AD813B300812782 /* HexapodaViewController.m in Sources */,
+				84354C721AD8B63B00812782 /* MenuViewController.m in Sources */,
 				84354C1C1AD7322100812782 /* ViewController.m in Sources */,
 				84354C131AD7322100812782 /* main.m in Sources */,
+				84354C5F1AD880B100812782 /* ArrayInsecta.m in Sources */,
 				84354C581AD7EC4B00812782 /* DatailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
