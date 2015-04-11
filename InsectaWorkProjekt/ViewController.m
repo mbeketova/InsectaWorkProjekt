@@ -10,6 +10,10 @@
 #import "DatailViewController.h"
 #import "ArrayInsecta.h"
 #import "CustomTableViewCell.h"
+#import "EntryViewController.h"
+#import "InformationViewController.h"
+#import "ContentViewController.h"
+#import "StructureViewController.h"
 
 //Ипользовала эту работу как домашнее задание к 5 уроку
 
@@ -87,7 +91,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-//    заполняем наследуемый вьюконтроллер DatailViewController (наименование, и описание)
+//    заполняем наследуемый вьюконтроллер DatailViewController (наименование, латинское наименование, описание)
     
     DatailViewController * detal = [self.storyboard instantiateViewControllerWithIdentifier:@"Detail"];
     [self.navigationController pushViewController:detal animated:YES];

@@ -30,7 +30,7 @@
    
 }
 
-
+//метод на срабатывание первой кнопки:
 - (void) go_First {
     
     //если нажимается первая кнопка, то isFirstArray = YES
@@ -42,13 +42,13 @@
     
 }
 
-
+//метод на срабатывание второй кнопки:
 - (void) go_Another {
     
     //если нажимается вторая кнопка, то isFirstArray = NO
     
     ViewController * view = [self.storyboard instantiateViewControllerWithIdentifier:@"Cell"];
-    [self.navigationController pushViewController:view animated:NO];
+    [self.navigationController pushViewController:view animated:YES];
     
     view.isFirstArray = NO;
     
